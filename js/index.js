@@ -1,6 +1,5 @@
 
 
-
 function tringulo(x, y, z) {
 
     if (x == y == z) {
@@ -15,6 +14,21 @@ function tringulo(x, y, z) {
     }
 }
 
-tringulo(1, 2, 1,);
+//tringulo(1, 2, 1,);
 
 //! roda no node ta funcionando normal! 
+
+
+function maior(x,y,z){
+    if(x > y && x > z){
+        console.log('o maior é o x!'(x));
+        
+    }else if(y > x && y > z){
+        console.log('o maior é o y!'(y));
+    }else if(z > x && z > y){
+        console.log('o maior é o z!'(z));
+    }
+
+}
+
+    maior(3,7,9);
