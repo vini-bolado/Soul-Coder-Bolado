@@ -34,7 +34,7 @@ for (let i = 0; i < qtdnum; i++) {
 }
 
 
-prompt("Me fale ")
+prompt("Me fale ");
 
 
 
