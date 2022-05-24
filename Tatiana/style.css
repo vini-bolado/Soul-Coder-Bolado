@@ -1,0 +1,119 @@
+li a{
+    color: #049372;
+    padding: 20px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 35px;
+    border-radius: 2px;
+    font-family: macondo;
+    letter-spacing: 2px;
+}
+
+li a:hover{
+    color: #699de2;
+}
+
+li{
+    float: left;
+    list-style-type: none;
+}
+
+ul{
+    background-color: rgb(3, 3, 3);
+    height: 80px;
+}
+
+#titulo{
+    font-family: macondo;
+    background-color: #049372;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+#subtitulo{
+    font-family: macondo;
+    background-color: #4183D7;
+    color:#ffffff;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+
+.paragrafo{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 10px;
+}
+
+#img1{
+    float: right;
+    margin-left: 10px;
+}
+
+#img2{
+    margin: 5px;
+    display: inline-block;
+}
+
+#video{
+    float:inline-end;
+    margin: 5px;
+}
+
+.modalidades1{
+    margin: 10px auto 0;
+    max-width: 90%;
+    text-align: center center;
+}
+
+.modalidades2{
+    display: grid;
+    grid-template-columns: repeat(6, minmax(auto, 395px));
+    gap: 7px;
+}
+
+#filme{
+    width: 90%;
+    margin: 10px auto 10px;
+    text-align: center;
+}
+
+.subir{
+    background-color: black;
+    color: #049372;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    font-family: macondo;
+    font-size: 20px;
+    text-decoration: none;
+}
+.subir:hover{
+    background-color: black;
+    color: #4183D7;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    font-family: macondo;
+    font-size: 30px;
+}
+
+footer{
+    text-align: center;
+    font-family: macondo;
+    color:#049372;
+    font-size: 35px;
+}
