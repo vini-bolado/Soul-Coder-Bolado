@@ -1,13 +1,15 @@
+let btnEl = document.getElementById('btn-el')
+let lampEl = document.getElementById('lamp-el')
+let i = 0
 
-ligarDesligar = document.getElementById()
 
-ligarDesligar.addEventListener('click', () => {
+btnEl.addEventListener('click', () =>{
+    if (i==0) {
+        lampEl.src = "img/liagada.png"
+        i++
+    } else{
+        lampEl.src = "img/apagada.png"
+        i--
+    }
 
-    re
-
-});
-
-document.querySelector('.show-more').addEventListener('click', function () {
-    document.querySelector('.additional-information')
-      ('is-visible');
-  });
+})
